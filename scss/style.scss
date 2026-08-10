@@ -31,9 +31,10 @@ h1,h4,h5,h6,p{
     width: auto;
     height: auto;
 }
-    .m2 {
-    margin: 0%;
+.m2 {
+    margin: none;
 }
+    
 
 }
 /*big screen*/
@@ -52,6 +53,10 @@ h1,h4,h5,h6,p{
      flex-direction: column;
      align-items: flex-end;
       }
+
+    .m2{
+    margin:10%;
+    } 
 }
 
 /* landing/ carusel */
@@ -132,9 +137,9 @@ h1,h4,h5,h6,p{
     }
 }
 
-.m2{
+/* .m2{
     margin:10%;
-}
+} */
 /*qualifications end */
 
 /*footer*/
