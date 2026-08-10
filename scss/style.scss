@@ -31,12 +31,13 @@ h1,h4,h5,h6,p{
     width: auto;
     height: auto;
 }
-.m2 {
+section{
+   .m2 {
     margin: none;
+} 
 }
-    
+}  
 
-}
 /*big screen*/
 @media (min-width:471px) {
      /*profile container*/
