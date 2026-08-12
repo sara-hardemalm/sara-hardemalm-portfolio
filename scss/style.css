@@ -12003,10 +12003,13 @@ h1, .h1, h4, .h4, h5, .h5, h6, .h6, p {
 }
 
 /*small screen*/
-@media (max-width: 425px) {
+@media (max-width: 426px) {
   .container1 {
     width: auto;
     height: auto;
+  }
+  .m2 {
+    margin: 15% 0;
   }
 }
 /*big screen*/
@@ -12024,6 +12027,9 @@ h1, .h1, h4, .h4, h5, .h5, h6, .h6, p {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+  }
+  .m2 {
+    margin: 10% 16%;
   }
 }
 /* landing/ carusel */
@@ -12106,10 +12112,9 @@ h1, .h1, h4, .h4, h5, .h5, h6, .h6, p {
   background-color: var(--background-color-containerdark);
 }
 
-.m2 {
-  margin: 10%;
-}
-
+/* .m2{
+    margin:10%;
+} */
 /*qualifications end */
 /*footer*/
 footer {
@@ -12160,4 +12165,7 @@ footer {
   }
 }
 /*footer end*/
-/*klar 08-10-2025 20:49 *//*# sourceMappingURL=style.css.map */
+/*klar 08-10-2025 20:49 */
+/* validering 08-10-2025. 21:33
+hoppas du inte ville att vi skulle ha validerings märke på sidan också. för jag 
+tror de har slutat med såna efter validering. fick inget när jag gjorde valideringen*//*# sourceMappingURL=style.css.map */
