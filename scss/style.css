@@ -12003,13 +12003,30 @@ h1, .h1, h4, .h4, h5, .h5, h6, .h6, p {
 }
 
 /*small screen*/
-@media (max-width: 426px) {
+@media (max-width: 425px) {
+  body {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  body main {
+    width: 425px;
+    /* max-width: 100%; */
+    overflow-x: hidden;
+  }
+  body section {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .container {
+    padding: 0;
+    width: 425px;
+  }
   .container1 {
     width: auto;
     height: auto;
   }
   .m2 {
-    margin: 15% 0;
+    margin: 15% 5%;
   }
 }
 /*big screen*/
